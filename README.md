@@ -58,4 +58,10 @@
   </ol>
 </details>
 
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+![Demo of project](Screenshot\2.png)
+
+Weather-react is a web-based React program to give weather information all around the world using OpenWeatherMap API.
 
