@@ -61,7 +61,49 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Demo of project](Screenshot\2.png)
+![Demo of project](https://github.com/KarthikUdyawar/weather-react/blob/main/Screenshot/1.png)
 
 Weather-react is a web-based React program to give weather information all around the world using OpenWeatherMap API.
 
+### Built With
+
+* [React](https://reactjs.org/)
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Prerequisites
+Make sure your app has the latest version of the following prerequisites.
+* git v2.13 or greater
+  ```powershell
+  git --version                                  
+  ```
+
+* NodeJS 12 || 14 || 15 || 16
+  ```powershell
+  node --version                           
+  ```
+
+* npm v6 or greater
+  ```powershell
+  npm --version                          
+  ```
+
+### Setup
+
+1. Get a free API Key at [openweathermap.org](https://openweathermap.org/api)
+2. Clone the repo or [download](https://github.com/KarthikUdyawar/weather-react/archive/refs/heads/main.zip)
+   ```bash
+   git clone https://github.com/KarthikUdyawar/weather-react.git
+   ```
+3. Enter your API in `App.js`
+   ```js
+      const api = {
+      key: "YOUR_API",
+      base: "https://api.openweathermap.org/data/2.5/"
+    }
+   ```
+4. Run it
+    ```powershell
+    npm start
+    ```
